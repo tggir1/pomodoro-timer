@@ -1,0 +1,71 @@
+.Main {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+  font-family: 'Share Tech Mono', monospace;
+  color: white;
+}
+.flex-please {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Timer {
+  width: 400px;
+  height: 250px;
+  background-color: #404040;
+  border-radius: 3px;
+}
+#time-left {
+  background-color: black;
+  color: greenyellow;
+  margin-top: 10px;
+  width: 380px;
+  border-radius: 2px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+#timer-label {
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+#Tbutton-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Tbutton {
+  height: 30px;
+  width: 100px;
+  font-family: 'Share Tech Mono';
+  font-size: 20px;
+}
+.Settings-container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.SpecButton-container {
+  margin: 0 20px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SpecButton {
+  font-family: 'Share Tech Mono';
+  font-weight: bold;
+  font-size: 18px;
+  width: 60px;
+}
+.SettingReadout {
+  margin: 10px 0;
+  font-size: 34px;
+  color: #e3ffb7;
+}

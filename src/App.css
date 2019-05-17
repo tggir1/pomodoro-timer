@@ -1,0 +1,125 @@
+.Main {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: 10vh;
+}
+.flex-please {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Timer {
+  width: 400px;
+  height: 300px;
+  background-color: #1e1e1e;
+  border-radius: 3px;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#time-left {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #373737;
+  margin: 20px;
+  width: 90%;
+  border-radius: 2px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+#timer-label {
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+#Tbutton-container {
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Tbutton {
+  font-family: 'Montserrat';
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  color: #e4c0f9;
+  background-color: #17161a;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #575757;
+  border-radius: 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.Tbutton:hover {
+  background-color: #251e2d;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.Settings-container {
+  margin-top: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.SpecButton-container {
+  color: #e4c0f9;
+  font-size: 48px;
+  padding-top: 10px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.SpecButton {
+  font-family: 'Share Tech Mono';
+  background-color: transparent;
+  border-color: transparent;
+  color: #e4c0f9;
+  font-size: 45px;
+  padding: 0 10px;
+  height: 60px;
+}
+.SpecButton:hover {
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 415px) {
+  .Main {
+    margin-top: 5vh;
+  }
+  .Timer {
+    width: 90vw;
+  }
+  .Settings-container {
+    width: 90vw;
+    font-size: 18px;
+  }
+}
+@media (max-width: 340px) {
+  .Main {
+    margin-top: 1vh;
+  }
+  .Timer {
+    height: 270px;
+  }
+  #time-left {
+    font-size: 80px;
+  }
+  .Settings-container {
+    margin-top: 5px;
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  #label {
+    margin-top: 15px;
+  }
+  .SpecButton-container {
+    padding-top: 0px;
+  }
+}

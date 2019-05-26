@@ -1,6 +1,7 @@
 {
   "name": "pomodoro-timer",
   "version": "0.1.0",
+  "homepage": "https://thomasg.dev/project-pages/pomodoro-timer",
   "private": true,
   "dependencies": {
     "accurate-interval": "^1.0.9",

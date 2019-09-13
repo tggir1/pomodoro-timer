@@ -1,11 +1,9 @@
 
 # Pomodoro Timer
 
-This is my very first React.js app. Definitely a fun way to become generally familiar with the React framework. I initiated the project with 'create-react-app' and built from there.
+A simple, fun way to become generally familiar with the React framework. I initiated the project with 'create-react-app' and built from there.
 
 I wanted the timer settings to be very adaptable. You'll notice that any of the timer settings can be changed at any time. This was probably the most challenging part of the project. 
-
-The ui loosely follows Google's Material design guidelines. The standards are easy to follow and result in a generally appealing interface. 
 
 <br>
 
